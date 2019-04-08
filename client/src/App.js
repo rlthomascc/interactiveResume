@@ -2,6 +2,8 @@
 /* eslint-disable class-methods-use-this */
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from 'react';
+import Navbar from './components/Navbar';
+import HomePage from './components/HomePage';
 
 class App extends Component {
   constructor(props) {
@@ -13,7 +15,8 @@ class App extends Component {
   renderView() {
     return (
       <div>
-        <h1>HELLO WORLD</h1>
+        <Navbar />
+        <HomePage />
       </div>
     );
   }
