@@ -12,6 +12,7 @@ class HomePage extends Component {
   render() {
     return (
       <div>
+        {/* Create flexbox container for Myspace.com profile details */}
         <h1>HELLO WORLD</h1>
       </div>
     );
