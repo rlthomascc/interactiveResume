@@ -13,25 +13,76 @@ class Navbar extends Component {
       <div className="navbarContainer">
         <ul>
           <li>
-            <a className="navItems" href="#">Home</a>
+            <a className="navItems" target="_blank" href="#">Home</a>
           </li>
           <li className="navSeparation">
               |
           </li>
           <li>
-            <a className="navItems" href="#">Github</a>
+            <a className="navItems" target="_blank" href="https://www.github.com/rlthomascc">Github</a>
           </li>
           <li className="navSeparation">
               |
           </li>
           <li>
-            <a className="navItems" href="#">Instagram</a>
+            <a className="navItems" target="_blank" href="https://www.linkedin.com/in/randy-thomas-71b5bb77/">LinkedIn</a>
           </li>
           <li className="navSeparation">
               |
           </li>
           <li>
-            <a className="navItems" href="#">Facebook</a>
+            <a className="navItems" target="_blank" href="/images/Resume2019Final.pdf" download>Download Resume</a>
+          </li>
+          <li className="navSeparation">
+              |
+          </li>
+          <li>
+            <a className="navItems" href="#">Browse</a>
+          </li>
+          <li className="navSeparation">
+              |
+          </li>
+          <li>
+            <a className="navItems" href="#">Search</a>
+          </li>
+          <li className="navSeparation">
+              |
+          </li>
+          <li>
+            <a className="navItems" href="#">Invite</a>
+          </li>
+          <li className="navSeparation">
+              |
+          </li>
+          <li>
+            <a className="navItems" href="#">Film</a>
+          </li>
+          <li className="navSeparation">
+              |
+          </li>
+          <li>
+            <a className="navItems" href="#">Mail</a>
+          </li>
+          <li className="navSeparation">
+              |
+          </li>
+          <li>
+            <a className="navItems" href="#">Blogs</a>
+          </li>
+          <li className="navSeparation">
+              |
+          </li>
+          <li>
+            <a className="navItems" href="#">Favorites</a>
+          </li>
+          <li className="navSeparation">
+              |
+          </li>
+          <li>
+            <a className="navItems" href="#">Forum</a>
+          </li>
+          <li className="navSeparation">
+              |
           </li>
         </ul>
       </div>

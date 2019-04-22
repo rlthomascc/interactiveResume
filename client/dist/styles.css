@@ -1,3 +1,7 @@
+body {
+  font-family: verdana;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -11,18 +15,18 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 18px;
   text-decoration: none;
 }
 
-li a:hover {
+/* li a:hover {
     color: #70a4d4;
 }
 
 li a:hover:after {
     color: black;
     content: "This doesn't actually do anything";
-}
+} */
 
 .navSeparation {
     float: left;
@@ -31,4 +35,56 @@ li a:hover:after {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+#bio {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+#containerLeft {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#links {
+  padding-top: 10px;
+}
+
+.contactName {
+  background-color: #70a4d4;
+  width: 500px;
+  color: white;
+}
+
+.contactingRandy {
+  padding: 10px 10px 10px 10px;
+}
+
+.contact {
+  margin-top: -20px;
+  padding: 30px 20px 0px 20px;
+  border: solid #70a4d4 3px;
+  width: 500px
+}
+
+#contactTable {
+  margin-top: 20px;
+}
+
+.myspaceURL {
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 10px 10px 10px 10px;
+  border: solid #70a4d4 2px;
+  width: 500px;
+}
+
+#linkedinURL {
+  color: black;
+}
+
+.interestTable {
+  margin-left: 30px;
+  margin-top: 15px;
 }
