@@ -13,7 +13,17 @@ class HomePage extends Component {
     return (
       <div>
         {/* Create flexbox container for Myspace.com profile details */}
-        <h1>HELLO WORLD</h1>
+        <div className="container">
+          <div className="item1">
+            <p>ITEM 1</p>
+          </div>
+          <div className="item2">
+            <p>ITEM 2</p>
+          </div>
+          <div className="item3">
+            <p>ITEM 3</p>
+          </div>
+        </div>
       </div>
     );
   }
