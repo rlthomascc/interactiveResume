@@ -25,7 +25,7 @@ class ApplicationsTable extends Component {
                 </div>
                 <div id="interestRight">
                   <p>
-                  Full Stack Engineer (Creative Director, Engineer)
+                    <i>Full Stack Engineer (Creative Director, Engineer)</i>
                     {' '}
                     <br />
 • Real Estate team management and accountability tracker.
@@ -42,7 +42,7 @@ class ApplicationsTable extends Component {
                 </div>
                 <div id="interestRight">
                   <p>
-                  Full Stack Engineer (Creative Director, Engineer)
+                    <i>Front End Engineer (Creative Director, Engineer)</i>
                     {' '}
                     <br />
 • MERN stack project with TMDb API to generate random films based on user specified
@@ -60,7 +60,7 @@ genre.
                 </div>
                 <div id="interestRight">
                   <p>
-                  Full Stack Engineer (Creative Director, Engineer)
+                    <i>Full Stack Engineer (Creative Director, Engineer)</i>
                     {' '}
                     <br />
 • Mortgage calculator IOS App for Real Estate Team.
@@ -81,7 +81,7 @@ React Chart.
                 </div>
                 <div id="interestRight">
                   <p>
-                  Back End Engineer
+                    <i>Back End Engineer </i>
                     {' '}
                     <br />
                   • Architected system backend to scale 10M records via stress testing and PostgreSQL query optimizations.
@@ -93,6 +93,26 @@ React Chart.
                     {' '}
                     <br />
 • Implemented Nginx reverse proxy w/ caching to increase service throughout to 12k rps at 3ms per request and 0% error rate
+                  </p>
+                </div>
+              </div>
+
+              <div className="row" id="interestRow">
+                <div id="interestLeft">
+                  <p className="font-weight-bold">Review Router</p>
+                </div>
+                <div id="interestRight">
+                  <p>
+                    <i>Full Stack Engineer </i>
+                    {' '}
+                    <br />
+                  • Designed full stack MERN project, allowing users to select a real estate agent, add a review,
+                  copy and paste the review on the top 5 social media outlets of the agents choosing.
+                    <br />
+• Developed aesthetic with React in-line bootstrap and css. .
+                    {' '}
+                    <br />
+• Deployed service via Heroku with Godaddy domain routing.
                   </p>
                 </div>
               </div>

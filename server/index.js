@@ -1,17 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-let app = express();
+const app = express();
 
-app.use(express.static(__dirname + '/../client/dist'));
+app.use(express.static(`${__dirname}/../client/dist`));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: false }));
 
 
+const port = process.env.PORT || 1992;
 
-let port = process.env.PORT || 1992;
-
-app.listen(port, function() {
+app.listen(port, () => {
   console.log(`listening on port ${port}`);
 });
-
