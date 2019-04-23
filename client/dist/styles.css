@@ -1,9 +1,13 @@
+body {
+  font-family: verdana;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #70a4d4;
+  background-color: #669acc;
 }
 
 li a {
@@ -11,18 +15,18 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 18px;
   text-decoration: none;
 }
 
-li a:hover {
+/* li a:hover {
     color: #70a4d4;
 }
 
 li a:hover:after {
     color: black;
     content: "This doesn't actually do anything";
-}
+} */
 
 .navSeparation {
     float: left;
@@ -31,4 +35,86 @@ li a:hover:after {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+#bio {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+#containerLeft {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#links {
+  padding-top: 10px;
+}
+
+.contactName {
+  background-color: #669acc;
+  width: 500px;
+  color: white;
+}
+
+.contactingRandy {
+  padding: 10px 10px 10px 10px;
+}
+
+.contact {
+  margin-top: -20px;
+  padding: 30px 20px 0px 20px;
+  border: solid #669acc 3px;
+  width: 500px
+}
+
+#contactTable {
+  margin-top: 20px;
+}
+
+.myspaceURL {
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 10px 10px 10px 10px;
+  border: solid #70a4d4 2px;
+  width: 500px;
+}
+
+#linkedinURL {
+  color: black;
+}
+
+#randysInterests {
+  background-color: #669acc;
+  width: 106.5%;
+  padding: 5px 5px 5px 5px;
+  color: white;
+}
+
+#interestTable {
+  margin-left: 30px;
+  margin-top: 15px;
+  width: 500px;
+  border: solid #669acc 2px;
+  padding-bottom: 5px;
+}
+
+#interestRow {
+  margin-top: 1px;
+  margin-left: -28px;
+  width: 112.5%;
+}
+
+#interestLeft {
+  width: 50%;
+  background-color: #b2d0ee;
+  border: solid white 3px;
+  padding: 10px 10px 10px 10px;
+}
+
+#interestRight {
+  width: 50%;
+  background-color: #d6e7fd;
+  border: solid white 3px;
+  padding: 10px 10px 10px 10px;
 }
