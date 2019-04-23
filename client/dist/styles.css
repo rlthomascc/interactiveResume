@@ -7,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #70a4d4;
+  background-color: #669acc;
 }
 
 li a {
@@ -52,7 +52,7 @@ li a:hover:after {
 }
 
 .contactName {
-  background-color: #70a4d4;
+  background-color: #669acc;
   width: 500px;
   color: white;
 }
@@ -64,7 +64,7 @@ li a:hover:after {
 .contact {
   margin-top: -20px;
   padding: 30px 20px 0px 20px;
-  border: solid #70a4d4 3px;
+  border: solid #669acc 3px;
   width: 500px
 }
 
@@ -84,7 +84,37 @@ li a:hover:after {
   color: black;
 }
 
-.interestTable {
+#randysInterests {
+  background-color: #669acc;
+  width: 106.5%;
+  padding: 5px 5px 5px 5px;
+  color: white;
+}
+
+#interestTable {
   margin-left: 30px;
   margin-top: 15px;
+  width: 500px;
+  border: solid #669acc 2px;
+  padding-bottom: 5px;
+}
+
+#interestRow {
+  margin-top: 1px;
+  margin-left: -28px;
+  width: 112.5%;
+}
+
+#interestLeft {
+  width: 50%;
+  background-color: #b2d0ee;
+  border: solid white 3px;
+  padding: 10px 10px 10px 10px;
+}
+
+#interestRight {
+  width: 50%;
+  background-color: #d6e7fd;
+  border: solid white 3px;
+  padding: 10px 10px 10px 10px;
 }

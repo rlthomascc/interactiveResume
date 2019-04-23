@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import ContactTable from './ContactTable';
 import InterestTable from './InterestTable';
+import ApplicationsTable from './ApplicationsTable';
 
 class HomePage extends Component {
   constructor(props) {
@@ -56,8 +57,11 @@ class HomePage extends Component {
             <a href="https://www.linkedin.com/in/randy-thomas-71b5bb77/" id="linkedinURL">https://www.linkedin.com/in/randy-thomas-71b5bb77/</a>
           </div>
         </div>
-        <div className="p2">
+        {/* <div className="p2">
           <InterestTable />
+        </div> */}
+        <div className="p2">
+          <ApplicationsTable />
         </div>
       </div>
     );
