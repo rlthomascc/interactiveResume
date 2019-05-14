@@ -21,7 +21,7 @@ class ApplicationsTable extends Component {
 
               <div className="row" id="interestRow">
                 <div id="interestLeft">
-                  <p className="font-weight-bold">Real Team</p>
+                  <a href="https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=nrvnLH3b%2FT65TweKynNIC4Fgsyo%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6jnhodx1Ey9KGTqAGj6E5DQJHUA3L0CHH05IbfPWjvK5TXebKkokAUeC8JjQA3er21SWKyEI7uI9m5fdhxipHkLML5agYUbhl4lWdI" target="_blank" className="text-dark font-weight-bold">Real Team </a>
                 </div>
                 <div id="interestRight">
                   <p>
@@ -38,7 +38,7 @@ class ApplicationsTable extends Component {
 
               <div className="row" id="interestRow">
                 <div id="interestLeft">
-                  <p className="font-weight-bold">Flick Finder | www.Flick-Finder.com </p>
+                  <a href="http://www.flick-finder.com/" target="_blank" className="text-dark font-weight-bold">Flick Finder </a>
                 </div>
                 <div id="interestRight">
                   <p>
@@ -56,7 +56,7 @@ genre.
 
               <div className="row" id="interestRow">
                 <div id="interestLeft">
-                  <p className="font-weight-bold">DRG Mortgage Calculator | App Store</p>
+                  <a href = "https://itunes.apple.com/us/app/del-real-group-calculator/id1450068933?mt=8" target="_blank" className="text-dark font-weight-bold" >DRG Mortgage Calculator | IOS App </a>
                 </div>
                 <div id="interestRight">
                   <p>
@@ -99,7 +99,7 @@ React Chart.
 
               <div className="row" id="interestRow">
                 <div id="interestLeft">
-                  <p className="font-weight-bold">Review Router</p>
+                  <a href="http://www.delrealgroupreviews.com/" target="_blank" className="text-dark font-weight-bold">Review Router </a>
                 </div>
                 <div id="interestRight">
                   <p>
