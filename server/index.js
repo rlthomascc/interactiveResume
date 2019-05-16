@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 const port = process.env.PORT || 1992;
+// const port = process.env.PORT || 80;
 
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
