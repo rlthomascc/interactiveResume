@@ -31,7 +31,7 @@ class Navbar extends Component {
               |
           </li>
           <li>
-            <a className="navItems" target="_blank" href="/images/Resume2019Final.pdf" download>Download Resume</a>
+            <a className="navItems" target="_blank" href="https://s3-us-west-1.amazonaws.com/rlthomas-pdf-resume/RandyThomasResume2_CV.pdf" download>Download Resume</a>
           </li>
           <li className="navSeparation">
               |
@@ -74,15 +74,6 @@ class Navbar extends Component {
           </li>
           <li>
             <a className="navItems" href="#">Favorites</a>
-          </li>
-          <li className="navSeparation">
-              |
-          </li>
-          <li>
-            <a className="navItems" href="#">Forum</a>
-          </li>
-          <li className="navSeparation">
-              |
           </li>
         </ul>
       </div>

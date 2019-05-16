@@ -156,3 +156,7 @@ li a:hover:after {
 .col-sm {
   padding-top: 20px;
 }
+
+.appImage {
+  cursor: pointer;
+}

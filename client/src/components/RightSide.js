@@ -3,7 +3,7 @@
 /* eslint-disable indent */
 /* eslint-disable no-useless-constructor */
 import React, { Component } from 'react';
-import Skills from './Skills';
+import Applications from './Applications';
 
 class RightSide extends Component {
     constructor(props) {
@@ -80,10 +80,10 @@ class RightSide extends Component {
               </div>
 
               <div className="p2" id="randyBlurbs">
-                <p className="h5 font-weight-bold">Randy's Skills </p>
+                <p className="h5 font-weight-bold">Randy's Applications </p>
               </div>
               <div>
-                <Skills />
+                <Applications />
               </div>
 
             </div>

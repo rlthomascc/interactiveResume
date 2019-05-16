@@ -5,7 +5,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from 'react';
 
-class ApplicationsTable extends Component {
+class SkillsTable extends Component {
     constructor(props) {
         super(props);
     }
@@ -15,107 +15,151 @@ class ApplicationsTable extends Component {
         return (
           <div className="container" id="interestTable">
             <div className="row" id="randysInterests">
-              <p className="h5 font-weight-bold">Randy's Applications</p>
+              <p className="h5 font-weight-bold">Randy's Skills</p>
             </div>
             <div className="col">
 
               <div className="row" id="interestRow">
                 <div id="interestLeft">
-                  <p className="font-weight-bold">Real Team</p>
+                  <p className="font-weight-bold">Languages</p>
                 </div>
                 <div id="interestRight">
                   <p>
-                    <i>Full Stack Engineer (Creative Director, Engineer)</i>
+                    •  Javascript (ES 5/6/7+)
                     {' '}
                     <br />
-• Real Estate team management and accountability tracker.
+                    •  JSX
                     {' '}
                     <br />
-• Engineered authentication with BCrypt, aesthetics with bootstrap in-line styling, Chart implementation utilizing ChartJS.
+                    •  SQL
+                    {' '}
+                    <br />
+                    •  CSS
+                    {' '}
+                    <br />
+                    •  HTML
+                    {' '}
+                    <br />
                   </p>
                 </div>
               </div>
 
               <div className="row" id="interestRow">
                 <div id="interestLeft">
-                  <p className="font-weight-bold">Flick Finder | www.Flick-Finder.com </p>
+                  <p className="font-weight-bold">Libraries</p>
                 </div>
                 <div id="interestRight">
                   <p>
-                    <i>Front End Engineer (Creative Director, Engineer)</i>
+                    •  Redux
                     {' '}
                     <br />
-• MERN stack project with TMDb API to generate random films based on user specified
-genre.
+                    •  Underscore
                     {' '}
                     <br />
-• Designed application aesthetics using Bootstrap
+                    •  Material UI
+                    {' '}
+                    <br />
+                    •  Chai
+                    {' '}
+                    <br />
+                    •  JQuery
+                    {' '}
+                    <br />
+                    •  Bootstrap 3/4
+                    {' '}
+                    <br />
+                    •  Mocha
+                    {' '}
+                    <br />
+                    •  Jest
+                    {' '}
+                    <br />
                   </p>
                 </div>
               </div>
 
               <div className="row" id="interestRow">
                 <div id="interestLeft">
-                  <p className="font-weight-bold">DRG Mortgage Calculator | App Store</p>
+                  <p className="font-weight-bold">Front-End Frameworks</p>
                 </div>
                 <div id="interestRight">
                   <p>
-                    <i>Full Stack Engineer (Creative Director, Engineer)</i>
+                    •  React
                     {' '}
                     <br />
-• Mortgage calculator IOS App for Real Estate Team.
+                    •  Backbone
                     {' '}
                     <br />
-• Engineered front end interface using React Native and
-React Chart.
-                    {' '}
-                    <br />
-• Deployed IOS Application to the Apple App Store.
                   </p>
                 </div>
               </div>
 
               <div className="row" id="interestRow">
                 <div id="interestLeft">
-                  <p className="font-weight-bold">ESPN Rams Team Page</p>
+                  <p className="font-weight-bold">Back-End Frameworks</p>
                 </div>
                 <div id="interestRight">
                   <p>
-                    <i>Back End Engineer </i>
+                    •  Node
                     {' '}
                     <br />
-                  • Architected system backend to scale 10M records via stress testing and PostgreSQL query optimizations.
-                    <br />
-• Deployed service and database instances into AWS EC2 for horizontal scaling.
+                    •  AWS
                     {' '}
                     <br />
-• Integrated AWS Elastic Load Balancer for autoscaling leveraging AMI and Docker technologies.
+                    •  ExpressJS
                     {' '}
                     <br />
-• Implemented Nginx reverse proxy w/ caching to increase service throughout to 12k rps at 3ms per request and 0% error rate
                   </p>
                 </div>
               </div>
 
               <div className="row" id="interestRow">
                 <div id="interestLeft">
-                  <p className="font-weight-bold">Review Router</p>
+                  <p className="font-weight-bold">Databases</p>
                 </div>
                 <div id="interestRight">
                   <p>
-                    <i>Full Stack Engineer </i>
+                    •  mySQL
                     {' '}
                     <br />
-                  • Designed full stack MERN project, allowing users to select a real estate agent, add a review,
-                  copy and paste the review on the top 5 social media outlets of the agents choosing.
-                    <br />
-• Developed aesthetic with React in-line bootstrap and css. .
+                    •  PostgreSQL
                     {' '}
                     <br />
-• Deployed service via Heroku with Godaddy domain routing.
+                    •  MongoDB
+                    {' '}
+                    <br />
+                    •  SQLite
+                    {' '}
+                    <br />
+                    •  CassandraDB
+                    {' '}
+                    <br />
                   </p>
                 </div>
               </div>
+
+              <div className="row" id="interestRow">
+                <div id="interestLeft">
+                  <p className="font-weight-bold">Deployment-Task Runners</p>
+                </div>
+                <div id="interestRight">
+                  <p>
+                    •  AWS
+                    {' '}
+                    <br />
+                    •  Travis
+                    {' '}
+                    <br />
+                    •  Grunt
+                    {' '}
+                    <br />
+                    •  Firebase
+                    {' '}
+                    <br />
+                  </p>
+                </div>
+              </div>
+
 
             </div>
           </div>
@@ -128,4 +172,4 @@ React Chart.
     }
 }
 
-export default ApplicationsTable;
+export default SkillsTable;

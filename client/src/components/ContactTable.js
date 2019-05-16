@@ -23,7 +23,7 @@ class ContactTable extends Component {
             <div className="p2">
               <p className="font-weight-bold"><a href="mailto: bookingrlthomas@gmail.com"><img src="/images/MESSAGE_ICON.png" width="40px" /> {' '} Send Email </a></p>
               <p className="font-weight-bold"><a href="https://www.linkedin.com/in/randy-thomas-71b5bb77/" target="_blank"><img src="/images/ADD_LOGO.png" width="40px" /> {' '} Add to LinkedIn </a></p>
-              <p className="font-weight-bold"><a href="/images/Resume2019Final.pdf" download><img src="/images/INSTANT_MESSAGE.png" width="30px" />{' '} Download Resume </a></p>
+              <p className="font-weight-bold"><a href="https://s3-us-west-1.amazonaws.com/rlthomas-pdf-resume/RandyThomasResume2_CV.pdf" target="_blank" download><img src="/images/INSTANT_MESSAGE.png" width="30px" />{' '} Download Resume </a></p>
               <p className="font-weight-bold"><a href="https://www.linkedin.com/in/randy-thomas-71b5bb77/" target="_blank"><img src="/images/ADD_TO_GROUP.png" width="40px" /> {' '} Add to Group </a></p>
             </div>
             <div className="p2">

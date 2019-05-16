@@ -6,7 +6,7 @@
 import React, { Component } from 'react';
 import ContactTable from './ContactTable';
 import InterestTable from './InterestTable';
-import ApplicationsTable from './ApplicationsTable';
+import SkillsTable from './SkillsTable';
 
 class LeftSide extends Component {
   constructor(props) {
@@ -65,7 +65,7 @@ class LeftSide extends Component {
                 <InterestTable />
             </div> */}
             <div className="p2">
-                <ApplicationsTable />
+                <SkillsTable />
               </div>
 
           </div>
