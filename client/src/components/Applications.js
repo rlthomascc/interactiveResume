@@ -18,6 +18,7 @@ class Applications extends Component {
         return (
             <div className="container" id="skillsContainer">
                 <div className="row">
+
                     <div className="col-sm text-center">
                         <a href="http://www.flick-finder.com/" target="_blank" className="text-dark font-weight-bold">Flick Finder</a>
                         <br />
