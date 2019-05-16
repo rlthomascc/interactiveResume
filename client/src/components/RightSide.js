@@ -33,7 +33,7 @@ class RightSide extends Component {
               <div className="p2" id="aboutMe">
                 <p className="h5 font-weight-bold" id="title">Education</p>
                 <p>
-                  <b>Hack Reactor / Galvanize (2018-2019)</b>
+                  <a href="https://www.hackreactor.com/" target="_blank" className="font-weight-bold text-dark">Hack Reactor / Galvanize (2018-2019)</a>
                   <br />
                   <i>Advanced Software Engineering Program</i>
                 </p>
@@ -63,7 +63,7 @@ class RightSide extends Component {
               <div className="p2" id="aboutMe">
                 <p className="h5 font-weight-bold" id="title">Employment</p>
                 <p>
-                  <b>The Del Real Group (2015-Present)</b>
+                  <a href="http://www.thedelrealgroup.com/" target="_blank" className="font-weight-bold text-dark">The Del Real Group (2015-Present)</a>
                   <br />
                   <i>Marketing Manager</i>
                 </p>
