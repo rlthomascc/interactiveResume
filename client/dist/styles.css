@@ -1,0 +1,162 @@
+body {
+  font-family: verdana;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #669acc;
+}
+
+li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+/* li a:hover {
+    color: #70a4d4;
+}
+
+li a:hover:after {
+    color: black;
+    content: "This doesn't actually do anything";
+} */
+
+.navSeparation {
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#bio {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+#containerLeft {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#links {
+  padding-top: 10px;
+}
+
+.contactName {
+  background-color: #669acc;
+  width: 500px;
+  color: white;
+}
+
+.contactingRandy {
+  padding: 10px 10px 10px 10px;
+}
+
+.contact {
+  margin-top: -20px;
+  padding: 30px 20px 0px 20px;
+  border: solid #669acc 3px;
+  width: 500px
+}
+
+#contactTable {
+  margin-top: 20px;
+}
+
+.myspaceURL {
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 10px 10px 10px 10px;
+  border: solid #70a4d4 2px;
+  width: 500px;
+}
+
+#linkedinURL {
+  color: black;
+}
+
+#randysInterests {
+  background-color: #669acc;
+  width: 106.5%;
+  padding: 10px;
+  color: white;
+}
+
+#interestTable {
+  margin-left: 30px;
+  margin-top: 15px;
+  width: 500px;
+  border: solid #669acc 2px;
+  padding-bottom: 5px;
+}
+
+#interestRow {
+  margin-top: 1px;
+  margin-left: -28px;
+  width: 112.5%;
+}
+
+#interestLeft {
+  width: 50%;
+  background-color: #b2d0ee;
+  border: solid white 3px;
+  padding: 10px 10px 10px 10px;
+}
+
+#interestRight {
+  width: 50%;
+  background-color: #d6e7fd;
+  border: solid white 3px;
+  padding: 10px 10px 10px 10px;
+}
+
+#statusUpdate {
+  border: solid black 3px;
+  padding: 40px 40px 40px 40px;
+  text-align: center;
+}
+
+#containerRight {
+  margin: 60px 60px 0px 100px;
+}
+
+#randyBlurbs {
+  background-color: #fecd9b;
+  color: #e07521;
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#title {
+  color: #e07521;
+}
+
+#aboutMe {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.imageText {
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-sm {
+  padding-top: 20px;
+}
+
+.appImage {
+  cursor: pointer;
+}
