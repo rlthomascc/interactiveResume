@@ -23,6 +23,7 @@ class LeftSide extends Component {
                 <div className="d-flex flex-row">
             <div className="p2">
               {/* <img src="https://scontent.fsac1-1.fna.fbcdn.net/v/t1.0-9/58443032_2741138932568427_7086900504613093376_o.jpg?_nc_cat=108&_nc_oc=AQlI-YZ2b8dwoDaOPRHitZz-Xzm-X5tUKi09B6LGB8Hok-23bSDiRaRex4T1WsNVGKFwBCKyALoNEg_CE7mOvj3R&_nc_ht=scontent.fsac1-1.fna&oh=d360105548bafe4807eb15280d5686c7&oe=5D2E6DF6" width="250px" /> */}
+              {/* NEW IMAGE */}
               <img src="/images/smallest.png" width="250px" />
             </div>
             <div className="p2" id="bio">
