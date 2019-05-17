@@ -160,3 +160,24 @@ li a:hover:after {
 .appImage {
   cursor: pointer;
 }
+
+#flickFinderContainer, #drgappContainer, #reviewrouterContainer, #espnContainer, #realteamContainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#espnDescription {
+  font-size: 20px;
+  margin: auto;
+}
+
+
+#goBack {
+  cursor: pointer;
+}
+
+#goBack:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+} 
