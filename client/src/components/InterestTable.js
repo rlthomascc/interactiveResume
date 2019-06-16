@@ -21,7 +21,6 @@ class InterestTable extends Component {
               <p className="font-weight-bold">General</p>
             </div>
             <div id="interestRight">
-              
               <p>
               Full Stack Software Engineer with a strong love for Javascript.
               I have a passion for collaboration and making ideas become reality.
